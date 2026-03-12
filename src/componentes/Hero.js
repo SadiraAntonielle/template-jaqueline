@@ -6,23 +6,20 @@ const WHATSAPP_LINK =
 
 export default function Hero() {
   return (
-    <section
-      id="topo"
-      className="relative overflow-hidden bg-white dark:bg-neutral-950"
-    >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(184,149,78,0.18),transparent_55%)]" />
+    <section id="topo" className="relative overflow-hidden bg-[#F6EEE6]">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(211,154,86,0.22),transparent_55%)]" />
 
       <Container className="relative grid items-center gap-10 py-14 md:grid-cols-2 md:py-20">
         <div>
-          <p className="mb-3 inline-flex rounded-full border border-neutral-200 bg-white/70 px-3 py-1 text-xs tracking-wide text-neutral-600 backdrop-blur">
+          <p className="mb-3 inline-flex rounded-full border border-[#E2C7AA] bg-[#FFF9F4]/90 px-3 py-1 text-xs tracking-wide text-[#8B5E3B] backdrop-blur">
             Atendimento online e presencial
           </p>
 
-          <h1 className="text-4xl font-semibold tracking-tight text-neutral-950 md:text-5xl">
+          <h1 className="text-4xl font-semibold tracking-tight text-[#4B3124] md:text-5xl">
             Um espaço de escuta, acolhimento e cuidado emocional.
           </h1>
 
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-neutral-600 md:text-lg">
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-[#7A5230] md:text-lg">
             Atendimento psicológico para adultos e idosos, com abordagem em
             psicanálise, escuta ética e um olhar humanizado para cada história.
           </p>
@@ -32,7 +29,7 @@ export default function Hero() {
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noreferrer"
-              className="group inline-flex items-center gap-2 rounded-xl bg-[linear-gradient(135deg,#B8954E,rgba(184,149,78,0.78))] px-6 py-3 text-sm font-semibold text-neutral-950 shadow-sm ring-1 ring-black/10 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
+              className="group inline-flex items-center gap-2 rounded-xl bg-[linear-gradient(135deg,#D39A56,rgba(197,138,71,0.9))] px-6 py-3 text-sm font-semibold text-[#4B3124] shadow-sm ring-1 ring-[#C58A47]/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,34 +44,34 @@ export default function Hero() {
 
             <a
               href="#servicos"
-              className="rounded-xl border border-neutral-200 bg-white px-5 py-3 text-sm font-medium text-neutral-900 transition hover:bg-neutral-50"
+              className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] px-5 py-3 text-sm font-medium text-[#4B3124] transition hover:bg-[#F1E1D0]"
             >
               Ver áreas de atuação
             </a>
           </div>
 
-          <div className="mt-8 grid max-w-lg grid-cols-3 gap-3 text-xs text-neutral-600">
-            <div className="rounded-xl border border-neutral-200 bg-white p-3">
-              <p className="font-medium text-neutral-900">Acolhimento</p>
+          <div className="mt-8 grid max-w-lg grid-cols-3 gap-3 text-xs text-[#7A5230]">
+            <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
+              <p className="font-medium text-[#4B3124]">Acolhimento</p>
               <p className="mt-1">Escuta sensível e sem julgamentos</p>
             </div>
-            <div className="rounded-xl border border-neutral-200 bg-white p-3">
-              <p className="font-medium text-neutral-900">Ética</p>
+            <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
+              <p className="font-medium text-[#4B3124]">Ética</p>
               <p className="mt-1">Condução profissional e cuidadosa</p>
             </div>
-            <div className="rounded-xl border border-neutral-200 bg-white p-3">
-              <p className="font-medium text-neutral-900">Flexibilidade</p>
+            <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
+              <p className="font-medium text-[#4B3124]">Flexibilidade</p>
               <p className="mt-1">Online e presencial</p>
             </div>
           </div>
         </div>
 
         <div className="relative">
-          <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_top,rgba(17,17,17,0.06),transparent_60%)]" />
-          <div className="relative overflow-hidden rounded-[2rem] border border-neutral-200 bg-neutral-50 p-3 shadow-sm">
+          <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_top,rgba(75,49,36,0.06),transparent_60%)]" />
+          <div className="relative overflow-hidden rounded-[2rem] border border-[#E2C7AA] bg-[#FFF9F4] p-3 shadow-sm">
             <div className="aspect-[4/5] w-full overflow-hidden rounded-[1.6rem]">
               <Image
-                src="/images/1.jpeg"
+                src="/images/2.jpeg"
                 alt="Foto profissional de Jaqueline Psicóloga"
                 width={600}
                 height={750}
@@ -83,11 +80,11 @@ export default function Hero() {
               />
             </div>
 
-            <div className="mt-4 rounded-2xl border border-neutral-200 bg-white p-4">
-              <p className="text-sm font-medium text-neutral-950">
+            <div className="mt-4 rounded-2xl border border-[#E2C7AA] bg-[#FFF9F4] p-4">
+              <p className="text-sm font-medium text-[#4B3124]">
                 Jaqueline Psicóloga
               </p>
-              <p className="mt-1 text-sm text-neutral-600">
+              <p className="mt-1 text-sm text-[#7A5230]">
                 CRP 04/47119 • Pouso Alegre/MG
               </p>
             </div>

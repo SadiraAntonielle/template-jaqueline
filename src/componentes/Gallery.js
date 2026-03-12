@@ -21,7 +21,7 @@ export default function Gallery() {
             <div className="rounded-[1.6rem] border border-neutral-200 bg-neutral-50 p-6">
               <div className="overflow-hidden rounded-[1.2rem]">
                 <Image
-                  src="/images/3.jpeg"
+                  src="/images/1.jpeg"
                   alt="Atendimento psicológico"
                   width={900}
                   height={700}
@@ -42,7 +42,7 @@ export default function Gallery() {
             <div className="rounded-[1.6rem] border border-neutral-200 bg-neutral-50 p-6">
               <div className="overflow-hidden rounded-[1.2rem]">
                 <Image
-                  src="/images/4.jpeg"
+                  src="/images/2.jpeg"
                   alt="Cuidado e acolhimento"
                   width={900}
                   height={700}
