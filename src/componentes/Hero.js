@@ -69,7 +69,7 @@ export default function Hero() {
         <div className="relative">
           <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_top,rgba(75,49,36,0.06),transparent_60%)]" />
           <div className="relative overflow-hidden rounded-[2rem] border border-[#E2C7AA] bg-[#FFF9F4] p-3 shadow-sm">
-            <div className="aspect-[4/5] w-full overflow-hidden rounded-[1.6rem]">
+            <div className="aspect-[4/4.6] w-full overflow-hidden rounded-[1.6rem]">
               <Image
                 src="/images/2.jpeg"
                 alt="Foto profissional de Jaqueline Psicóloga"
