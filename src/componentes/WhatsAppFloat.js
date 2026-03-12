@@ -1,5 +1,5 @@
 const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Oi!%20Quero%20agendar%20um%20hor%C3%A1rio.";
+  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
 
 export default function WhatsAppFloat() {
   return (

@@ -1,16 +1,16 @@
 import Container from "./Container";
 
 const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Oi!%20Quero%20agendar%20um%20hor%C3%A1rio.";
+  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-white/20 bg-white/60 backdrop-blur-xl supports-[backdrop-filter]:bg-white/60">
       <Container className="flex items-center justify-between py-4">
         <a href="#topo" className="flex items-center gap-2">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#C8A96A]" />
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#B8954E]" />
           <span className="text-sm font-semibold tracking-wide text-neutral-950">
-            Nome Profissional
+            Jaqueline Psicóloga
           </span>
         </a>
 
@@ -19,7 +19,7 @@ export default function Navbar() {
             Sobre
           </a>
           <a href="#servicos" className="transition hover:text-neutral-950">
-            Serviços
+            Atuação
           </a>
           <a href="#contato" className="transition hover:text-neutral-950">
             Contato

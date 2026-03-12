@@ -11,7 +11,7 @@ import Navbar from "@/componentes/Navbar";
 export default function Home() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <main>
         <Hero />
         <About />
