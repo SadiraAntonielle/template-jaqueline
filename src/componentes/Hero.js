@@ -53,7 +53,7 @@ export default function Hero() {
           <div className="mt-8 grid max-w-lg grid-cols-3 gap-3 text-xs text-[#7A5230]">
             <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
               <p className="font-medium text-[#4B3124]">Acolhimento</p>
-              <p className="mt-1">Escuta sensível e sem julgamentos</p>
+              <p className="mt-1">Escuta sensível e respeitosa</p>
             </div>
             <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
               <p className="font-medium text-[#4B3124]">Ética</p>
@@ -61,7 +61,7 @@ export default function Hero() {
             </div>
             <div className="rounded-xl border border-[#E2C7AA] bg-[#FFF9F4] p-3">
               <p className="font-medium text-[#4B3124]">Flexibilidade</p>
-              <p className="mt-1">Online e presencial</p>
+              <p className="mt-1">Atendimento online e presencial</p>
             </div>
           </div>
         </div>

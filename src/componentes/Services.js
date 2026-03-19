@@ -13,32 +13,32 @@ import {
 const services = [
   {
     title: "Psicoterapia para adultos",
-    desc: "Atendimento psicológico voltado ao acolhimento emocional, autoconhecimento e enfrentamento das questões da vida adulta.",
+    desc: "Um espaço de escuta e elaboração para questões emocionais, relacionamentos, escolhas e desafios da vida adulta.",
     icon: User,
   },
   {
     title: "Psicoterapia para idosos",
-    desc: "Escuta sensível e cuidado voltado às vivências do envelhecimento, perdas, autonomia e qualidade de vida.",
+    desc: "Atendimento voltado às vivências do envelhecimento, mudanças, perdas e questões emocionais dessa fase da vida.",
     icon: HeartHandshake,
   },
   {
     title: "Ansiedade e sofrimento emocional",
-    desc: "Espaço terapêutico para acolher angústias, inseguranças, medos e outras demandas emocionais.",
+    desc: "Acompanhamento psicológico para momentos de angústia, insegurança, sobrecarga e outras questões que afetam o bem-estar emocional.",
     icon: Brain,
   },
   {
     title: "Pacientes com diabetes e hipertensão",
-    desc: "Atendimento com olhar humanizado para pessoas que convivem com condições crônicas e seus impactos emocionais.",
+    desc: "Escuta psicológica para pessoas que convivem com condições crônicas e com os impactos emocionais relacionados ao cuidado com a saúde.",
     icon: Activity,
   },
   {
     title: "Apoio a pacientes oncológicos e familiares",
-    desc: "Suporte emocional, acolhimento e escuta durante o processo de adoecimento, tratamento e enfrentamento do diagnóstico.",
+    desc: "Acolhimento e suporte emocional diante do adoecimento, do tratamento e dos desafios vividos pelo paciente e por sua rede de apoio.",
     icon: Ribbon,
   },
   {
     title: "Uso problemático de substâncias",
-    desc: "Acompanhamento psicológico com ética, cuidado e respeito à singularidade de cada história.",
+    desc: "Atendimento psicológico com ética, escuta e respeito à singularidade de cada história e de cada processo.",
     icon: ShieldPlus,
   },
 ];

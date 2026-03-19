@@ -20,8 +20,7 @@ export default function About() {
             </div>
 
             <p className="mt-4 text-sm leading-relaxed text-[#6E5843]">
-              Um atendimento construído com acolhimento, ética e respeito à
-              singularidade de cada paciente.
+              Um atendimento construído com escuta, ética e respeito à história de cada paciente.
             </p>
           </div>
 
@@ -31,16 +30,11 @@ export default function About() {
             </p>
 
             <h2 className="text-3xl font-semibold tracking-tight text-[#2F241C] md:text-4xl">
-              Escuta qualificada, cuidado humanizado e um espaço seguro para o
-              seu processo.
+              Escuta qualificada e um cuidado respeitoso para cada processo.
             </h2>
 
             <p className="mt-4 text-base leading-relaxed text-[#6E5843] md:text-lg">
-              Jaqueline Valéria de Almeida atua com atendimento psicológico para
-              adultos e idosos, com abordagem em psicanálise. Sua condução
-              terapêutica é empática, ética, acolhedora e sem julgamentos,
-              oferecendo um espaço de escuta e cuidado respeitando a história,
-              o tempo e a singularidade de cada paciente.
+              Jaqueline Valéria de Almeida realiza atendimento psicológico para adultos e idosos, com abordagem em psicanálise. Seu trabalho é conduzido com ética, empatia e atenção à singularidade de cada paciente, oferecendo um espaço seguro de escuta, reflexão e cuidado emocional.
             </p>
 
             <div className="mt-8 grid gap-4">
@@ -54,8 +48,7 @@ export default function About() {
                       Atendimento online e presencial
                     </p>
                     <p className="mt-1 text-sm leading-relaxed text-[#6E5843]">
-                      Flexibilidade para que o cuidado aconteça da forma que
-                      melhor se encaixa na rotina e necessidade de cada paciente.
+                      O cuidado pode acontecer de forma online ou presencial, conforme a necessidade e a rotina de cada paciente.
                     </p>
                   </div>
                 </div>
@@ -68,12 +61,10 @@ export default function About() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-[#2F241C]">
-                      Adultos, idosos e diferentes demandas emocionais
+                      Adultos e idosos
                     </p>
                     <p className="mt-1 text-sm leading-relaxed text-[#6E5843]">
-                      Atuação com ansiedade, condições crônicas, pacientes
-                      oncológicos, idosos e outras questões que impactam o
-                      bem-estar emocional.
+                      Atendimento voltado a diferentes momentos da vida, com escuta atenta às vivências, desafios e necessidades de cada pessoa.
                     </p>
                   </div>
                 </div>
@@ -86,11 +77,10 @@ export default function About() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-[#2F241C]">
-                      Cuidado integral e olhar individualizado
+                      Cuidado individualizado
                     </p>
                     <p className="mt-1 text-sm leading-relaxed text-[#6E5843]">
-                      Um acompanhamento pensado de forma sensível, respeitosa e
-                      alinhada à realidade de cada pessoa.
+                      Cada processo terapêutico é único e conduzido com respeito ao tempo, à história e à singularidade de quem busca atendimento.
                     </p>
                   </div>
                 </div>

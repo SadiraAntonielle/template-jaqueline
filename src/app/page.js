@@ -5,7 +5,6 @@ import Testimonials from "@/componentes/Testimonials";
 import Hero from "@/componentes/Hero";
 import Footer from "@/componentes/Footer";
 import WhatsAppFloat from "@/componentes/WhatsAppFloat";
-import Gallery from "@/componentes/Gallery";
 import Navbar from "@/componentes/Navbar";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
-        <Gallery />
         <Testimonials />
         <Contact />
       </main>

@@ -6,17 +6,17 @@ import { GraduationCap, Heart, ShieldCheck } from "lucide-react";
 const testimonials = [
   {
     title: "Especialização e atualização contínua",
-    text: "Formação em Saúde Mental pela Universidade São Francisco e em Cuidados Paliativos pela Faculdade Israelita Albert Einstein, além de busca constante por aperfeiçoamento profissional.",
+    text: "Formação em Saúde Mental pela Universidade São Francisco e em Cuidados Paliativos pela Faculdade Israelita Albert Einstein, além de constante aperfeiçoamento profissional.",
     icon: GraduationCap,
   },
   {
     title: "Atendimento humanizado",
-    text: "Condução terapêutica com empatia, ética profissional, acolhimento e sem julgamentos, criando um espaço seguro para o paciente.",
+    text: "Condução terapêutica com empatia, ética e acolhimento, oferecendo um espaço seguro e sem julgamentos.",
     icon: Heart,
   },
   {
     title: "Cuidado integral",
-    text: "Atuação com pacientes oncológicos, idosos e pessoas com condições crônicas, considerando não apenas a demanda clínica, mas também qualidade de vida, contexto e suporte familiar.",
+    text: "Um olhar que considera não apenas a demanda apresentada, mas também a história, o contexto e a singularidade de cada paciente.",
     icon: ShieldCheck,
   },
 ];
