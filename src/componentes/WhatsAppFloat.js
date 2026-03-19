@@ -1,5 +1,6 @@
-const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
+const numero = "5535998364816";
+const mensagem = "Olá, gostaria de agendar um atendimento.";
+const WHATSAPP_LINK = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
 export default function WhatsAppFloat() {
   return (
@@ -18,7 +19,6 @@ export default function WhatsAppFloat() {
       >
         <path d="M12.04 2C6.58 2 2.16 6.42 2.16 11.88c0 1.91.5 3.78 1.45 5.42L2 22l4.83-1.58a9.8 9.8 0 005.21 1.5h.01c5.46 0 9.88-4.42 9.88-9.88S17.5 2 12.04 2z" />
       </svg>
-
       WhatsApp
     </a>
   );

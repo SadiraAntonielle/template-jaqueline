@@ -1,8 +1,9 @@
 import Container from "./Container";
 import Image from "next/image";
 
-const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
+const numero = "5535998364816";
+const mensagem = "Olá, gostaria de agendar um atendimento.";
+const WHATSAPP_LINK = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
 export default function Hero() {
   return (
@@ -82,7 +83,7 @@ export default function Hero() {
 
             <div className="mt-4 rounded-2xl border border-[#E2C7AA] bg-[#FFF9F4] p-4">
               <p className="text-sm font-medium text-[#4B3124]">
-                Jaqueline Psicóloga
+                Jaqueline Valéria
               </p>
               <p className="mt-1 text-sm text-[#7A5230]">
                 CRP 04/47119 • Pouso Alegre/MG

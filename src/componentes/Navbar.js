@@ -1,7 +1,8 @@
 import Container from "./Container";
 
-const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
+const numero = "5535998364816";
+const mensagem = "Olá, gostaria de agendar um atendimento.";
+const WHATSAPP_LINK = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
 export default function Navbar() {
   return (
@@ -10,7 +11,7 @@ export default function Navbar() {
         <a href="#topo" className="flex items-center gap-2">
           <span className="inline-block h-2.5 w-2.5 rounded-full bg-[#C58A47]" />
           <span className="text-sm font-semibold tracking-wide text-[#4B3124]">
-            Jaqueline Psicóloga
+            Jaqueline Valéria
           </span>
         </a>
 

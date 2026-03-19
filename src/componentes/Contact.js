@@ -1,8 +1,9 @@
 import Container from "./Container";
 import Reveal from "./Reveal";
 
-const WHATSAPP_LINK =
-  "https://wa.me/55SEUNUMEROAQUI?text=Olá!%20Gostaria%20de%20agendar%20um%20atendimento.";
+const numero = "5535998364816";
+const mensagem = "Olá, gostaria de agendar um atendimento.";
+const WHATSAPP_LINK = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
 
 export default function Contact() {
   return (
@@ -43,7 +44,7 @@ export default function Contact() {
             <div className="rounded-[1.6rem] border border-[#E2C7AA] bg-[linear-gradient(180deg,#FFF3E8,#E9C8A3)] p-4 shadow-[0_10px_30px_rgba(75,49,36,0.08)]">
               <div className="flex h-full min-h-[240px] flex-col items-center justify-center rounded-[1.2rem] bg-[#FFF9F4] px-6 text-center">
                 <p className="text-lg font-semibold text-[#4B3124]">
-                  Jaqueline Psicóloga
+                  Jaqueline Valéria
                 </p>
                 <p className="mt-2 text-sm text-[#7A5230]">CRP 04/47119</p>
                 <p className="mt-4 text-sm leading-relaxed text-[#6E4A33]">
